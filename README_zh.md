@@ -9,9 +9,9 @@ Lancet 是一个轻量级Android AOP框架。
 
 ## 说明
 
-该项目是从[lancet](https://github.com/eleme/lancet)中fork出来的分支.
+该项目是从[lancet](https://github.com/eleme/lancet)项目中fork出来的分支.
 
-我们将项目中的ASM版本升级为6.0，目的在于解决这个[issue](https://github.com/eleme/lancet/issues/46).
+我们将项目中的ASM版本升级为6.0，目的在于解决这个[issue](https://github.com/eleme/lancet/issues/40).
 
 ## 开始使用
 ### 安装

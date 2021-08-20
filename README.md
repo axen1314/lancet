@@ -16,7 +16,7 @@ In addition, not only App developers but also SDK developers can use Lancet.
 
 This project is forked from [Lancet](https://github.com/eleme/lancet).
 
-We upgrade the asm to 6.0 to avoid this [issue](https://github.com/eleme/lancet/issues/46).
+We upgrade the asm to 6.0 to avoid this [issue](https://github.com/eleme/lancet/issues/40).
 
 ## Usage
 ### Installation
