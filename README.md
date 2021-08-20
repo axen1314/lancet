@@ -30,7 +30,7 @@ repositories
 
 dependencies {
     classpath 'com.android.tools.build:gradle:3.3.2'
-    classpath 'com.github.axen1314:lancet-plugin:1.0.6'
+    classpath 'com.github.axen1314.lancet:lancet-plugin:v1.0.6'
 }
 ```
 Tips: Lancet 1.0.5 and above only supports gradle 3.3.2 and above.
@@ -41,7 +41,7 @@ And then, add following code in your **application module's build.gradle**
 apply plugin: 'me.ele.lancet'
 
 dependencies {
-    compileOnly 'com.github.axen1314:lancet-base:1.0.6'
+    compileOnly 'com.github.axen1314.lancet:lancet-base:v1.0.6'
 }
 ```
 
