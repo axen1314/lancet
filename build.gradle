@@ -13,12 +13,12 @@ buildscript {
             bintrayKey = properties.getProperty('bintrayKey')
         }
         lancet_group = 'com.github.axen1314'
-        lancet_version = '1.0.7-alpha1'
+        lancet_version = '1.0.7-alpha2'
         //lancet_version = '0.0.1.8-SNAPSHOT'
 
         asm_version = '9.3'
         //android_tools_version = '2.4.0-alpha6'
-        android_tools_version = '4.2.0'
+        android_tools_version = '4.1.0'
         guava_version = '24.0'
     }
     repositories {
