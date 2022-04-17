@@ -13,16 +13,15 @@ buildscript {
             bintrayKey = properties.getProperty('bintrayKey')
         }
         lancet_group = 'com.github.axen1314'
-        lancet_version = '1.0.7-alpha2'
+        lancet_version = '1.0.6'
         //lancet_version = '0.0.1.8-SNAPSHOT'
 
-        asm_version = '9.3'
+        asm_version = '6.0_BETA'
         //android_tools_version = '2.4.0-alpha6'
-        android_tools_version = '4.1.0'
+        android_tools_version = '3.3.2'
         guava_version = '24.0'
     }
     repositories {
-        google()
         jcenter()
         mavenCentral()
         maven {
@@ -47,9 +46,11 @@ buildscript {
 subprojects { pro ->
 
     repositories {
-        google()
         jcenter()
         mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
     }
 
     if (pro.name == 'sample-test')return
